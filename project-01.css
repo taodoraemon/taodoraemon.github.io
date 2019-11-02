@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+}
+
+
+
+/* Start writing your code here */
+
+h1,h2,h3,p,a {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+a {
+  font-size: 16px;
+  text-decoration-line: none;
+}
+
+.white {
+  color: #fff;
+}
+
+.black {
+  color: #000;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.logo {
+  display: block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 16px;
+  background-image: url(data:image/jpeg;base64,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);
+}
+
+.banner1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) ;
+  padding:160px ;
+  flex-direction: column;  
+}
+
+.button1 {
+  display: inline-block;
+  border: 1px solid white;
+  background-color:white;
+  text-align: center;
+  border-radius: 2px;
+  padding: 10px 22px; 
+}
+
+.image {
+  height: 240px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  background-image: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80');
+}
+.image-2 {
+  background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+.image-3 {
+  background-image: url('https://images.unsplash.com/photo-1489359413553-6c264fb36c83?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+}
+.image-4 {
+  background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+}
+.image-5 {
+  background-image: url('https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+.image-6 {
+  background-image: url('https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+
+/* start writing your code here */
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product-item {
+  padding: 0 8px;
+  margin: 0 0 48px;
+  flex-grow: 1;
+  flex-basis: 340px;
+}
